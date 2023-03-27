@@ -74,9 +74,9 @@
 
             const data = await response.json();
             if (data.success) {
-                window.location.href = '/success'; // redirect to another page
+                window.location.href = '/success'; // successfully Logged In 
             } else {
-                window.location.href = '/failure'; // show error message
+                window.location.href = '/failure'; // redirect to failure route
             }
         });
 
